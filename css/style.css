@@ -9,10 +9,34 @@ body {
     margin: 0;
 
 }
+.meet {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+width: 50px;
+max-width: 1000px;
+box-sizing: border-box;
+margin: auto;
+flex-direction: column;
+}
+.meet img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+
+}
+
+.meet p {
+    max-width: 400px;
+    font-size: 20px;
+}
+
+
 
 main {
     flex: 1;
-
 }
 
 header {
@@ -37,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-    color: darkgreen;
+    color: rgb(231, 233, 231);
 
 }
 
@@ -49,7 +73,7 @@ nav a:hover {
 }
 
 .links:hover p {
-    color: darkgreen;
+    color: rgb(0, 7, 0);
 }
 
 footer {
@@ -92,29 +116,67 @@ footer p {
 .card {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     background-color: rgb(63, 111, 15);
     margin: 15px;
     padding: 30px;
     border-radius: 30px;
+    align-items: center;
 }
 
 .card img {
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
     object-fit: cover;
+    image-rendering: optimizeQuality;
 }
 
 .card p {
-    font-size: 30px;
+    font-size: 20px;
+}
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0 30px;
+    color: #7CFF00;
 }
 
-.background img {
-    background-color: rgb(0, 58, 39);
-    border-radius: 40px;
-    padding: 15px;
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(63, 111, 15);
+    margin: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    width: 160px;
+    text-align: center;
+    
+}
+.card2:hover{
+    transform: scale(1.05);
+}
+
+.card2 a {
+    text-decoration: none;
+}
+
+.card2 img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+display: flex;
+justify-content: center;
+}
+
+
 
 .container {
     display: flex;
@@ -134,6 +196,51 @@ footer p {
 
 .tecnologias {
     display: flex;
-    gap: 30px;
     justify-content: center;
+    gap: 25px;
+    background-color: rgb(63, 111, 15);
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+
+    
+}
+.tecnologias img {
+    width: 150px;
+    height: 75px;
+    display: block;
+    object-fit: contain;
+    flex-shrink: 0;
+    
+    
+    
+
+}
+.cardr {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(63, 111, 15);
+    margin: 15px;
+    padding: 30px;
+    border-radius: 30px;
+    align-items: center ;
+    object-fit:cover ;
+}
+.cardr img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    
+    image-rendering: optimizeQuality;
+
+}
+.cardr p {
+    font-size: x-large;
+}
+.text {
+    font-size: x-large;
+    line-height: 1.6;
 }
